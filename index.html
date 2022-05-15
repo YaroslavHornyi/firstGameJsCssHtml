@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyGame</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="game">
+        <div id="dino"></div>
+        <div id="cactus"></div>
+      </div>
+
+      <div id="dialogoverlay"></div>
+      <div id="dialogbox">
+        <div>
+          <div id="dialogboxhead"></div>
+          <div id="dialogboxbody"></div>
+          <div id="dialogboxfoot"></div>
+        </div>
+      </div>
+      <button onclick="Alert.render('Кастомный alert #1')">
+        Кастомный alert #1
+      </button>
+      <button onclick="Alert.render('Кастомный alert #2')">
+        Кастомный alert #2
+      </button>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
